@@ -9,7 +9,7 @@ console.log({ CATEGORIES, TASKS });
 
 function App() {
   const [task, setTask] = useState(TASKS)
-  const [categories, ] = useState(CATEGORIES)
+  const [categories, setCategories] = useState(CATEGORIES)
   const [selectedCategoryButton, setSelectedCategoryButton] = useState('All')
 
 function addNewItemtoList(newItem){
